@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	float s, b, sb, bb, tb;
+	cin >> s >> b;
+	if(s<b){
+		sb=s*0.10;
+		bb=b*0.25;
+	}
+	else{
+		sb=s*0.25;
+		bb=b*0.10;
+	}
+	tb=sb+bb;
+	cout<<"$"<<tb;
+    return 0;
+} 
