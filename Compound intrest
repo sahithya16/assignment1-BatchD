@@ -1,0 +1,10 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	float n,y, ci;
+	cin >> n>>y;
+	ci=n*pow(1+0.04, y);
+	cout<<ci;
+	return 0;
+}
