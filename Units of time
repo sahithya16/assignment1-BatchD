@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	int n,d,h,m,s;
+	cin >> n;
+	d = n/86400;
+	h = n/3600;
+	m = (n-(3600*h))/60;
+	s = (n-(3600*h)-(m*60));
+	cout<<d<<":"<<h<<":"<<m<<":"<<s;
+	return 0;
+}
