@@ -1,0 +1,12 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+	float n, tax, tip, grandtotal;
+	cin >> n;
+	tax = n*0.18;
+	tip = n*0.05;
+	grandtotal = n+tax+tip;
+	cout<<"tax = "<<tax<<"\n"<<"tip = "<<tip<<"\n"<<"grandtotal = "<<grandtotal ;
+	return 0;
+}
